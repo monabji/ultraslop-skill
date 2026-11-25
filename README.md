@@ -16,6 +16,24 @@ git clone https://github.com/monabji/ultraslop-skill ~/.config/opencode/skills/u
 git clone https://github.com/monabji/ultraslop-skill ~/.claude/skills/ultraslop
 ```
 
+### Codex
+
+Codex uses the same open `SKILL.md` standard. Put it in the shared agent skills folder (recommended):
+
+```sh
+git clone https://github.com/monabji/ultraslop-skill ~/.agents/skills/ultraslop
+```
+
+Or into Codex's own folder (still supported):
+
+```sh
+git clone https://github.com/monabji/ultraslop-skill ~/.codex/skills/ultraslop
+```
+
+For a single project, clone into `<project>/.agents/skills/ultraslop` instead. If the folder is named `ultraslop-skill`, rename it to `ultraslop` so it matches the `name` field in `SKILL.md` — Agent Skills requires the directory name to match.
+
+Invoke it explicitly with `$ultraslop <your request>` in the CLI/IDE extension, or let Codex pick it up implicitly when your request mentions maximalism, horror vacui, or visual overload. Run `/skills` to confirm it's loaded.
+
 ## Use
 
 Give the agent an image and say "ultraslop it" (or ask for maximalism / horror vacui / visual overload). The skill instructs the agent to:

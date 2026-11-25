@@ -1,6 +1,6 @@
 # ultraslop
 
-An agentic skill that turns any image into an extreme maximalist composition — horror vacui, commercial kitsch, zero negative space, intentional redundancy — built in layered edit passes and verified by a thumbnail legibility test and an empty-patch audit.
+An agentic skill that turns any image / generates images which look horrible, ugly and AI slop.
 
 ## Install
 

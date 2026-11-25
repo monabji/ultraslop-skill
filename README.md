@@ -2,6 +2,10 @@
 
 An agentic skill that turns any image / generates images which look horrible, ugly and AI slop.
 
+## Example output
+
+![Example ultraslop output: a maximalist deli-distributor poster — chrome/gold 3D type, dozens of fictional seals and medals, mascots, and zero negative space](assets/example.png)
+
 ## Install
 
 ### OpenCode
